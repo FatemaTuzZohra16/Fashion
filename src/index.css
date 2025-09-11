@@ -18,3 +18,18 @@ button.slick-arrow.slick-prev{
     content: ''!important;
     color: black !important;
 }
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  content: "•";            /* dot আসবে */
+  font-size: 30px !important;         /* সাইজ */
+  color: black !important; /* রঙ */
+  opacity: 1 !important;   /* fully visible */
+}
+
+.slick-dots li.slick-active button:before {
+  color: red !important;   /* active dot এর রঙ */
+}
+

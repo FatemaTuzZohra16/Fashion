@@ -35,14 +35,19 @@ function PrevArrow(props) {
 }
 const Favorites = () => {
     var settings = {
-        dots: false,
+        dots: true,
         arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 4,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
+        appendDots: dots => (
+    <ul className="flex justify-center space-x-2">
+      {dots.slice(0, 4)} {/* 👉 শুধু প্রথম 4 টা dot দেখাবে */}
+    </ul>
+  ),
     };
     const [products, setProducts] = useState([])
     useEffect(() => {
@@ -51,7 +56,7 @@ const Favorites = () => {
             .then((data) => setProducts(data))
     }, [])
     return (
-        <div className='font-primary pt-[90px]'>
+        <div className='font-primary pt-[90px] pb-[73px]'>
             <Container>
                 <div className='text-center'>
                     <h2 className='text-[24px] leading-[33px]'>Everlane Favorites</h2>
