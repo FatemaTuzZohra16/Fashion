@@ -4,6 +4,9 @@ import Navbar from '../Navbar/Navbar'
 import NameOfCategory from '../NameOfCategory/NameOfCategory'
 import Bannar from '../Bannar/Bannar'
 import Category from '../Category/Category'
+import NewArrivals from '../NewArrivals/NewArrivals'
+import Mission from '../Mission/Mission'
+import Favorites from '../Favorites/Favorites'
 
 const Home = () => {
     return (
@@ -13,6 +16,9 @@ const Home = () => {
             <NameOfCategory />
             <Bannar />
             <Category />
+            <NewArrivals />
+            <Mission />
+            <Favorites />
         </div>
     )
 }

@@ -5,3 +5,16 @@
 @theme {
   --font-primary: "Poppins", sans-serif; 
 }
+
+/* button.slick-arrow.slick-next{
+  background-color: black;
+  color: blueviolet;
+}
+button.slick-arrow.slick-prev{
+  background-color: black;
+  color: brown;
+} */
+.slick-prev:before, .slick-next:before{
+    content: ''!important;
+    color: black !important;
+}
