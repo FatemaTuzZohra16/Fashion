@@ -24,7 +24,7 @@ button.slick-arrow.slick-prev{
 
 .slick-dots li button:before {
   content: "•";            /* dot আসবে */
-  font-size: 30px !important;         /* সাইজ */
+  font-size: 20px !important;         /* সাইজ */
   color: black !important; /* রঙ */
   opacity: 1 !important;   /* fully visible */
 }

@@ -13,8 +13,8 @@ const Header = () => {
             <p className='font-normal text-[12px] leading--[16px]'>Sign Up For Texts</p>
             <FaArrowRight />
           </div>
-          <div className='flex gap-x-3 justify-end pl-[437px]'>
-            <img src={us} alt="" />
+          <div className='flex gap-x-3 justify-end pl-[437px] items-center'>
+            <img src={us} alt=""  className='w-[21px] h-[15px]'/>
             <p className='font-normal text-[12px] leading--[16px] py-2'>USD</p>
           </div>
         </div>
