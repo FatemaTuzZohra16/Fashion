@@ -45,7 +45,7 @@ const Favorites = () => {
         prevArrow: <PrevArrow />,
         appendDots: dots => (
     <ul className="flex justify-center space-x-2">
-      {dots.slice(0, 4)} {/* 👉 শুধু প্রথম 4 টা dot দেখাবে */}
+      {dots.slice(0, 4)}
     </ul>
   ),
     };
@@ -67,7 +67,7 @@ const Favorites = () => {
                             products.map((item) => (
                                 <div>
                                     <img src={item.images?.[0]} alt={item.title} className='w-[320px] h-[460px]' />
-                                    <h2 className='w-[300px] text-[14px] leading-[16px]'>{item.title}</h2>
+                                    <h2 className='w-[300px] text-[14px] leading-[16px] mt-[6px] mb-[3px]'>{item.title}</h2>
                                     <p className='text-[12px] leading-[16px]'>${item.price}</p>
                                 </div>
                             ))

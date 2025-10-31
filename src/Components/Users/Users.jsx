@@ -87,45 +87,6 @@ const Users = () => {
                             ))
                         }
                     </div>
-                    <div>
-                        <h1 className='font-primary text-[25px] leading-[40px] text-center my-[50px]'>Get In Tuch</h1>
-                        <div className='w-[600px] mx-auto shadow-lg py-12 px-10 font-primary'>
-                            
-                            <input type="text"
-                                placeholder='Your Name'
-                                name='Name'
-                                value={name}
-                                className='border outline-0 w-full rounded py-4 pl-4 mb-4 border-black/20'
-                                onChange={handleName}
-                            />
-                            <p className='text-red-700 mb-3'>{nameErr}</p>
-                            <input type="email"
-                                placeholder='Your Email'
-                                name='Email'
-                                value={email}
-                                className='border outline-0 w-full rounded py-4 pl-4 mb-4 border-black/20'
-                                onChange={handleEmail}
-                            />
-                             <p className='text-red-700 mb-3'>{emailErr}</p>
-                            <input type="password"
-                                placeholder='Your Password'
-                                name='Password'
-                                value={password}
-                                className='border outline-0 w-full rounded py-4 pl-4 mb-4 border-black/20'
-                                onChange={handlePassword}
-                            />
-                             <p className='text-red-700 mb-3'>{passwordErr}</p>
-                            <textarea 
-                            placeholder='Write Your Message'
-                            name='Message'
-                            value={message}
-                            className='border outline-0 w-full rounded py-4 pl-4 mb-4 border-black/20'
-                            onChange={handleMessage}
-                            />
-                             <p className='text-red-700 mb-3'>{messageErr}</p>
-                            <button  onClick={handleSent} className='font-medium text-[30px] leading-[45px] bg-blue-500 text-white py-2 px-10 rounded'>Sent</button>
-                        </div>
-                    </div>
                 </div>
             </Container>
         </div>
