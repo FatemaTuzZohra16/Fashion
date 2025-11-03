@@ -20,7 +20,6 @@ function NextArrow(props) {
   );
 }
 
-// 👉 Custom Prev Arrow
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -56,7 +55,7 @@ const Favorites = () => {
             .then((data) => setProducts(data))
     }, [])
     return (
-        <div className='font-primary pt-[90px] pb-[73px]'>
+        <div className='font-primary pt-[90px] pb-[93px]'>
             <Container>
                 <div className='text-center'>
                     <h2 className='text-[24px] leading-[33px]'>Everlane Favorites</h2>

@@ -8,6 +8,7 @@ import NewArrivals from '../NewArrivals/NewArrivals'
 import Mission from '../Mission/Mission'
 import Favorites from '../Favorites/Favorites'
 import Users from '../Users/Users'
+import Review from '../Review/Review'
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <NewArrivals />
             <Mission />
             <Favorites />
+            <Review />
             <Users />
         </div>
     )
