@@ -9,6 +9,7 @@ import Mission from '../Mission/Mission'
 import Favorites from '../Favorites/Favorites'
 import Users from '../Users/Users'
 import Review from '../Review/Review'
+import HolidayGift from '../HolidayGift/HolidayGift'
 
 const Home = () => {
     return (
@@ -22,7 +23,9 @@ const Home = () => {
             <Mission />
             <Favorites />
             <Review />
+            <HolidayGift />
             <Users />
+
         </div>
     )
 }
