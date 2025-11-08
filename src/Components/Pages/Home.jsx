@@ -10,6 +10,7 @@ import Favorites from '../Favorites/Favorites'
 import Users from '../Users/Users'
 import Review from '../Review/Review'
 import HolidayGift from '../HolidayGift/HolidayGift'
+import Everlane from '../Everlane/Everlane'
 
 const Home = () => {
     return (
@@ -24,7 +25,8 @@ const Home = () => {
             <Favorites />
             <Review />
             <HolidayGift />
-            <Users />
+            <Everlane />
+            {/* <Users /> */}
 
         </div>
     )
