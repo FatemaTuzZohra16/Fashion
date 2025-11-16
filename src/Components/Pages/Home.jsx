@@ -11,6 +11,8 @@ import Users from '../Users/Users'
 import Review from '../Review/Review'
 import HolidayGift from '../HolidayGift/HolidayGift'
 import Everlane from '../Everlane/Everlane'
+import Shipping from '../Shipping/Shipping'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     return (
@@ -27,7 +29,8 @@ const Home = () => {
             <HolidayGift />
             <Everlane />
             {/* <Users /> */}
-
+            <Shipping />
+            <Footer />
         </div>
     )
 }
