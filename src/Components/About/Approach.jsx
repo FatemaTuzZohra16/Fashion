@@ -4,9 +4,9 @@ import approach from '../../assets/approach.png'
 
 const Approach = () => {
   return (
-    <div className='font-primary bg-[#e6ded8]'>
+    <div className='font-primary'>
         <Container>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center bg-[#e6ded8]'>
                 <div>
                     <img src={approach} alt="" />
                 </div>

@@ -30,7 +30,7 @@ const Home = () => {
             <Everlane />
             {/* <Users /> */}
             <Shipping />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

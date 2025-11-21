@@ -3,6 +3,11 @@ import Container from '../Layout/Container'
 import about from '../../assets/about.png'
 import Text from '../About/Text.jsx'
 import Approach from './Approach.jsx'
+import Image from './Image.jsx'
+import Design from './Design.jsx'
+import Image2 from './Image2.jsx'
+import Transparent from './Transparent.jsx'
+import Explore from './Explore.jsx'
 
 const About = () => {
   return (
@@ -22,6 +27,11 @@ const About = () => {
     </div>
     <Text />
     <Approach />
+    <Image />
+    <Design />
+     <Image2 />
+    <Transparent />
+    <Explore />
    </>
   )
 }

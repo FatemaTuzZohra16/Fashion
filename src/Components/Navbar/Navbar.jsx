@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png'
 import { FaRegUser } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
+import { Link } from 'react-router';
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
                         <ul className='flex items-center'>
                             <li><a href="" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Women</a></li>
                             <li><a href="" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Men</a></li>
-                            <li><a href="" className='font-normal text-[12px] leading--[16px] py-5 px-3'>About</a></li>
+                            <li><Link to="/about" className='font-normal text-[12px] leading--[16px] py-5 px-3'>About</Link></li>
                             <li><a href="" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Everworld Stories</a></li>
                         </ul>
                     </div>
