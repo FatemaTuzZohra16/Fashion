@@ -7,6 +7,9 @@ import Success from './Components/Success/Success.jsx';
 import Home from './Components/Pages/Home.jsx';
 import MainRoute from './Components/MainRout/MainRoute.jsx';
 import CategoryProduct from './Components/Category/CategoryProduct.jsx';
+import About from './Components/About/About.jsx';
+import Text from './Components/About/Text.jsx';
+import Approach from './Components/About/Approach.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,9 @@ const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "/success", Component: Success },
       { path: "/Category/:id", Component: CategoryProduct },
+      { path: "/about", Component: About },
+      { path: "/text", Component: Text },
+      { path: "/approach", Component: Approach },
     ],
   },
 ]);
