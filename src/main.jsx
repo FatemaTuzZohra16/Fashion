@@ -10,6 +10,7 @@ import CategoryProduct from './Components/Category/CategoryProduct.jsx';
 import About from './Components/About/About.jsx';
 import Text from './Components/About/Text.jsx';
 import Approach from './Components/About/Approach.jsx';
+import Search from './Components/Search/Search.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,8 @@ const router = createBrowserRouter([
       { path: "/about", Component: About },
       { path: "/text", Component: Text },
       { path: "/approach", Component: Approach },
+      { path: "/approach", Component: Approach },
+      { path: "/search", Component: Search },
     ],
   },
 ]);

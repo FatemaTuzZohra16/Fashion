@@ -24,7 +24,7 @@ const Navbar = () => {
                         <img  src={logo}/>
                     </div>
                     <div className='flex py-3 gap-x-3'>
-                        <IoSearch size={16} />
+                        <Link  to='/search'><IoSearch size={16} /></Link>
                         <FaRegUser size={16} />
                         <IoCartOutline size={16} />
                     </div>
