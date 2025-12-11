@@ -28,7 +28,7 @@ const Search = () => {
                 <button className='text-[12px] leading-[16px] p-4 text-[#737373]'>Cancel</button>
             </div>
             <div className='py-[32px]'>
-                <h3 className='text-[14px] leading-[16.8px] mb-4'>Popular Categories</h3>
+                <h3 className='text-[14px] leading-[16.8px] mb-4 pl-[115px]'>Popular Categories</h3>
                 <div className="flex justify-center gap-5">
                     <div>
                         <img src={search1} alt="" />

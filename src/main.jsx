@@ -11,6 +11,8 @@ import About from './Components/About/About.jsx';
 import Text from './Components/About/Text.jsx';
 import Approach from './Components/About/Approach.jsx';
 import Search from './Components/Search/Search.jsx';
+import Blog from './Components/Blog/Blog.jsx';
+import Follow from './Components/Blog/Follow.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,8 @@ const router = createBrowserRouter([
       { path: "/approach", Component: Approach },
       { path: "/approach", Component: Approach },
       { path: "/search", Component: Search },
+      { path: "/blog", Component: Blog },
+      { path: "/follow", Component: Follow },
     ],
   },
 ]);
