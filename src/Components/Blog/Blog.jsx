@@ -1,6 +1,9 @@
 import React from 'react'
 import Container from '../Layout/Container'
 import Follow from './Follow'
+import Progress from './Progress'
+import blog from '../../assets/blog.png'
+import Latest from './Latest'
 
 const Blog = () => {
   return (
@@ -14,6 +17,13 @@ These are the people, stories, and ideas that will help us get there.</p>
             </div>
         </Container>
     </div>
+    <Latest />
+    <div>
+      <Container>
+        <img src={blog} alt=""  className='flex justify-start'/>
+      </Container>
+    </div>
+    <Progress />
     <Follow />
     </>
   )
