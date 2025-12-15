@@ -15,6 +15,8 @@ import Blog from './Components/Blog/Blog.jsx';
 import Follow from './Components/Blog/Follow.jsx';
 import Progress from './Components/Blog/Progress.jsx';
 import Latest from './Components/Blog/Latest.jsx';
+import BlogPost from './Components/BlogPost/BlogPost.jsx';
+import Content from './Components/BlogPost/Content.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,8 @@ const router = createBrowserRouter([
       { path: "/follow", Component: Follow },
       { path: "/progress", Component: Progress },
       { path: "/latest", Component: Latest },
+      { path: "/blogPost", Component: BlogPost },
+      { path: "/content", Component: Content },
     ],
   },
 ]);

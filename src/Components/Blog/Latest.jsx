@@ -6,6 +6,7 @@ import latest3 from '../../assets/latest3.png'
 import latest4 from '../../assets/latest4.png'
 import latest5 from '../../assets/latest5.png'
 import latest6 from '../../assets/latest6.png'
+import { Link } from 'react-router'
 
 const Latest = () => {
     const LatestData = [
@@ -56,8 +57,8 @@ const Latest = () => {
                         ))
                     }
                 </div>
-                <div className='text-center'>
-                    <button className='bg-black text-white mt-10 text-[14px] leading-[21px] py-5 px-[57px] rounded-[8px]'>Load more Articals</button>
+                <div className='text-center mt-10'>
+                    <Link to='/blogPost' className='bg-black text-white text-[14px] leading-[21px] py-5 px-[57px] rounded-[8px]'>Load more Articals</Link>
                 </div>
             </div>
         </Container>
