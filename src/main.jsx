@@ -17,6 +17,7 @@ import Progress from './Components/Blog/Progress.jsx';
 import Latest from './Components/Blog/Latest.jsx';
 import BlogPost from './Components/BlogPost/BlogPost.jsx';
 import Content from './Components/BlogPost/Content.jsx';
+import White from './Components/BlogPost/White.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
       { path: "/latest", Component: Latest },
       { path: "/blogPost", Component: BlogPost },
       { path: "/content", Component: Content },
+      { path: "/white", Component: White },
     ],
   },
 ]);

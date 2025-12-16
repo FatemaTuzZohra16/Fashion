@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Layout/Container'
 import blogHero from '../../assets/blogHero.png'
 import Content from './Content'
+import White from './White'
 
 const BlogPost = () => {
   return (
@@ -23,6 +24,7 @@ const BlogPost = () => {
         </Container>
     </div>
     <Content />
+    <White />
     </>
   )
 }
