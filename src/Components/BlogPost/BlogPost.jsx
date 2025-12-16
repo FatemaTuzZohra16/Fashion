@@ -3,6 +3,7 @@ import Container from '../Layout/Container'
 import blogHero from '../../assets/blogHero.png'
 import Content from './Content'
 import White from './White'
+import Style from './Style'
 
 const BlogPost = () => {
   return (
@@ -25,6 +26,7 @@ const BlogPost = () => {
     </div>
     <Content />
     <White />
+    <Style />
     </>
   )
 }

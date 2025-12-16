@@ -101,6 +101,9 @@ const White = () => {
                             }
                         </Slider>
                     </div>
+                    <div className='text-center mt-10'>
+                    <button className='bg-black text-white text-[14px] leading-[21px] py-5 px-[57px] rounded-[8px]'>Shop Now</button>
+                </div>
                 </div>
             </Container>
         </div>

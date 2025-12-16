@@ -18,6 +18,7 @@ import Latest from './Components/Blog/Latest.jsx';
 import BlogPost from './Components/BlogPost/BlogPost.jsx';
 import Content from './Components/BlogPost/Content.jsx';
 import White from './Components/BlogPost/White.jsx';
+import Style from './Components/BlogPost/Style.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
       { path: "/blogPost", Component: BlogPost },
       { path: "/content", Component: Content },
       { path: "/white", Component: White },
+      { path: "/style", Component: Style },
     ],
   },
 ]);
