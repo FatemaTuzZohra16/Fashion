@@ -20,6 +20,8 @@ import Content from './Components/BlogPost/Content.jsx';
 import White from './Components/BlogPost/White.jsx';
 import Style from './Components/BlogPost/Style.jsx';
 import Navigation from './Components/Navigation/Navigation.jsx';
+import Nav from './Components/About/Nav.jsx';
+import Stores from './Components/Stores/Stores.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,8 @@ const router = createBrowserRouter([
       { path: "/white", Component: White },
       { path: "/style", Component: Style },
       { path: "/navigation", Component: Navigation },
+      { path: "/stores", Component: Stores },
+      { path: "/nav", Component: Nav },
     ],
   },
 ]);

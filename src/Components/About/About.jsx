@@ -8,10 +8,12 @@ import Design from './Design.jsx'
 import Image2 from './Image2.jsx'
 import Transparent from './Transparent.jsx'
 import Explore from './Explore.jsx'
+import Nav from './Nav.jsx'
 
 const About = () => {
   return (
    <>
+   <Nav />
     <div
       className="w-full bg-cover bg-center bg-no-repeat rounded-xl"
       style={{ backgroundImage: `url(${about})` }}
