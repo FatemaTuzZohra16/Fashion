@@ -35,7 +35,7 @@ const Navigation = () => {
     ]
   return (
   <>
-    <div className='border-t border-[#eeeded]'>
+    <div className='border-t border-[#eeeded] bg-white'>
         <Container>
             <div className='flex justify-center'>
                 {
@@ -48,7 +48,7 @@ const Navigation = () => {
             </div>
         </Container>
     </div>
-    <div className='border-t border-[#eeeded]'>
+    <div className='border-t border-[#eeeded] bg-white pb-[90px]'>
         <Container>
             <div className='mt-[55px] mb-[90px] flex  justify-between'>
                 <div className='flex gap-[260px] max-w-[50%]'>
