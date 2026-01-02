@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 
 const SingleProduct = () => {
-   const { id } = useParams()
+  const { id } = useParams()
   const [product, setProduct] = useState(null)
   const [activeImg, setActiveImg] = useState("")
 
@@ -19,37 +19,40 @@ const SingleProduct = () => {
   if (!product) return <p>Loading...</p>
 
   return (
-     <div className='py-[80px]'>
+    <div className='py-[80px]'>
       <Container>
-        <div className='flex gap-10'>
-          
+        <div className='flex justify-between'>
           {/* Image Section */}
-          <div className='flex gap-4'>
+          <div className='flex gap-5'>
             <div className='flex flex-col gap-3'>
-              {product.images.map((img, index) => (
+              {product.images?.map((img, index) => (
                 <img
                   key={index}
                   src={img}
                   onClick={() => setActiveImg(img)}
-                  className='w-[70px] h-[70px] object-cover cursor-pointer border'
+                  className='w-[700px] object-cover cursor-pointer'
                 />
               ))}
             </div>
-
-            <img
+            <div className=''>
+              <img
               src={activeImg}
-              className='w-[400px] h-[400px] object-cover'
+              className='w-[2195px] object-cover'
             />
+            </div>
           </div>
 
           {/* Details Section */}
-          <div>
-            <h1 className='text-2xl font-semibold'>{product.title}</h1>
+          <div className='ml-20'>
+            <h1 className='text-[24px] leading-[33px]'>{product.title}</h1>
             <p className='text-xl mt-3'>${product.price}</p>
-            <p className='mt-4 text-gray-600'>{product.description}</p>
-            <p className='mt-2 text-sm'>
+            <p className='mt-4 text-[14px] leading-[18px]'>{product.description}</p>
+            <p className='mt-2 text-sm font-bold'>
               Category: {product.category?.name}
             </p>
+            <div className='mt-5'>
+              <h4 className='font-semibold text-[12px] leading-[16px]'>Size</h4>
+            </div>
           </div>
 
         </div>
