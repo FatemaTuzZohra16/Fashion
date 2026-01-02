@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className='flex justify-between items-center font-primary'>
                     <div>
                         <ul className='flex items-center'>
-                            <li><a href="" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Women</a></li>
+                            <li><a href="/" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Women</a></li>
                             <li><button href=""  onClick={()=>setNavMenu(!navMenu)} className='font-normal text-[12px] leading--[16px] py-5 px-3'>Men</button></li>
                             <li><Link to="/about" className='font-normal text-[12px] leading--[16px] py-5 px-3'>About</Link></li>
                             <li><a href="/blog" className='font-normal text-[12px] leading--[16px] py-5 px-3'>Everworld Stories</a></li>

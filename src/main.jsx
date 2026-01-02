@@ -22,6 +22,7 @@ import Style from './Components/BlogPost/Style.jsx';
 import Navigation from './Components/Navigation/Navigation.jsx';
 import Nav from './Components/About/Nav.jsx';
 import Stores from './Components/Stores/Stores.jsx';
+import SingleProduct from './Components/Category/SingleProduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,7 @@ const router = createBrowserRouter([
       { path: "/navigation", Component: Navigation },
       { path: "/stores", Component: Stores },
       { path: "/nav", Component: Nav },
+      { path: "/singleProduct/:id", Component: SingleProduct },
     ],
   },
 ]);
